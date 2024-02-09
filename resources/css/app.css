@@ -1,0 +1,46 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.traffic-light {
+    display: inline-block;
+    background: #333;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.light {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 10px auto;
+    background: #111;
+}
+
+.green.on { background: #0f0; }
+
+.yellow.on { background: #ff0; }
+
+.red.on { background: #f00; }
+
+button {
+    width: 100px;
+    height: 50px;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
